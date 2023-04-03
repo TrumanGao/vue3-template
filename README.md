@@ -1,20 +1,38 @@
 # vue3-template
 
-## 文档
+## Description
 
-https://github.com/TrumanGao/vue3-template
+Web application template based on vue@3 for personal use.
 
-## 准备
+## Installation
 
-- 安装 node@v16.13.0
-- npm install
-- 安装 vscode 插件，详见 /.vscode/extensions.json
+- Install node.js version 16 and above.
+- Install necessary vscode extensions. See /.vscode/extensions.json.
 
-## 开发
+## Project Setup
 
-1. npm run dev
+```sh
+npm install
+```
 
-## 提交
+### Compile and Hot-Reload for Development
 
-- 代码仓库：https://github.com/TrumanGao/vue3-template
-# vue3-template
+```sh
+npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+## Customize configuration
+
+### Build with [Vite](https://vitejs.dev/config/).
+
+### Bundle with [Rollupjs](https://rollupjs.org/)
+
+### Lint with [ESLint](https://eslint.org/)
+
+### Format with [Prettier](https://prettier.io/)
