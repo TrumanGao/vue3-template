@@ -10,7 +10,9 @@ export default defineConfig((): UserConfig => {
       'process.env.VITE_MODE': JSON.stringify('DEVELOPMENT')
     },
     server: {
+      open: true,
       strictPort: true,
+      port: 8080,
       proxy: {
         '^/api/.*': {
           target: 'https://www.xxx.com',
