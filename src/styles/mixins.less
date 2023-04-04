@@ -1,0 +1,38 @@
+// flex
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// position
+.position-center {
+  position: absolute; // 默认绝对定位
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.absolute-center {
+  .position-center();
+  position: absolute;
+}
+.fixed-center {
+  .position-center();
+  position: fixed;
+}
+
+// 填充
+.fill-parent {
+  .absolute-center();
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.fill-screen {
+  .fixed-center();
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}

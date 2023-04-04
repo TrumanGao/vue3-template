@@ -7,3 +7,10 @@ export enum LOCATION_HOST_MAP {
   PRODUCTION = 'contest.ybccode.com'
 }
 export const LOCATION_HOST = LOCATION_HOST_MAP[VITE_MODE]
+
+export enum LOCATION_PATHNAME_MAP {
+  PRODUCTION = '/',
+  TESTING = '/',
+  DEVELOPMENT = '/'
+}
+export const LOCATION_PATHNAME = LOCATION_PATHNAME_MAP[VITE_MODE]

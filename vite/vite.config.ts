@@ -9,7 +9,7 @@ export const baseUserConfig: UserConfig = {
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('../src', import.meta.url))
     }
   }
 }
