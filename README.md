@@ -2,7 +2,7 @@
 
 ## Description
 
-Web application template based on vue@3 for personal use.
+Web application template based on vue@3.
 
 ## Installation
 
